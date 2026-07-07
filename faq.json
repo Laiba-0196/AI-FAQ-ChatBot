@@ -1,0 +1,10 @@
+[
+  { "question": "What are your business hours?", "answer": "We are open Monday to Saturday, 10 AM to 8 PM. Closed on Sundays." },
+  { "question": "Do you offer home delivery?", "answer": "Yes, we deliver within the city for orders above Rs. 1000. Delivery usually takes 1-2 hours." },
+  { "question": "What is your return/refund policy?", "answer": "You can return any item within 7 days with the original receipt for a full refund." },
+  { "question": "How can I place a bulk order?", "answer": "Please contact us directly via WhatsApp for bulk orders, and we'll give you a custom quote." },
+  { "question": "Do you offer any discounts?", "answer": "We offer a 10% discount on orders above Rs. 5000, and seasonal discounts during holidays." },
+  { "question": "Which payment methods do you accept?", "answer": "We accept cash on delivery, bank transfer, and EasyPaisa/JazzCash." },
+  { "question": "Do you have a physical store?", "answer": "Yes, we have a store located in Faisalabad. You're welcome to visit us during business hours." },
+  {"question": "Hi!", "answer": "Hello! How can I assist you today?" }
+]
