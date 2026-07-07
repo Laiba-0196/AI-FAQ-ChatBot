@@ -1,7 +1,7 @@
 # AI-Powered FAQ Chatbot
 
 A lightweight, embeddable chatbot that answers customer questions using
-OpenAI's API, based on a business's own FAQ data.
+Groq's API (free & fast LLM inference), based on a business's own FAQ data.
 
 ## 🚀 Setup Instructions
 
@@ -11,10 +11,9 @@ Download from https://nodejs.org (LTS version). Verify with:
 node -v
 ```
 
-### 2. Get an OpenAI API Key
-- Go to https://platform.openai.com
-- Create an account, go to "API Keys", generate a new key
-- Add a small amount of billing credit ($5 is enough for practice)
+### 2. Get a Groq API Key (Free)
+- Go to https://console.groq.com
+- Sign up (free, no card needed), go to "API Keys", generate a new key
 
 ### 3. Install Dependencies
 Inside this project folder, run:
@@ -25,7 +24,7 @@ npm install
 ### 4. Set Up Environment Variables
 Rename `.env.example` to `.env` and paste your API key inside:
 ```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxx
 PORT=3000
 ```
 
@@ -46,7 +45,7 @@ Click the chat bubble in the bottom-right corner and try asking:
 ## 📁 Project Structure
 ```
 ai-faq-chatbot/
-├── server.js          # Backend (Express + OpenAI API call)
+├── server.js          # Backend (Express + Groq API call)
 ├── faq.json            # Editable FAQ knowledge base
 ├── package.json
 ├── .env.example
@@ -65,11 +64,11 @@ Once working locally, you can deploy for free on:
 - **Render** (https://render.com) — good for the Node backend
 - **Vercel** — also works well for this kind of small full-stack app
 
-Set the `OPENAI_API_KEY` as an environment variable in your hosting
+Set the `GROQ_API_KEY` as an environment variable in your hosting
 dashboard (never commit your real `.env` file to GitHub).
 
 ## 🎓 What This Project Demonstrates
-- REST API integration (OpenAI API)
+- REST API integration (Groq API - Llama models)
 - Prompt engineering (restricting AI to a knowledge base)
 - Full-stack basics (Express backend + vanilla JS frontend)
 - Building a reusable, embeddable UI component
